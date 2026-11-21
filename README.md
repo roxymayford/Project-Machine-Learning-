@@ -42,7 +42,8 @@
 | `TugasBagianA.ipynb` | Jupyter Notebook Python (seluruh sel sudah dieksekusi) berisi pembuktian kuantitatif Bagian A.2 (`isnull().sum()`, `duplicated().sum()`, konsistensi matematis, tipe data, dan anomali operasional) serta verifikasi A.1 dan A.3 menggunakan `seaborn` dan `matplotlib`. |
 | `TugasBagianB.ipynb` | Jupyter Notebook Python berisi analisis Bagian B (statistik deskriptif dan evaluasi outlier metode IQR). |
 | `TugasBagianC.ipynb` | Jupyter Notebook Python berisi analisis Bagian C (visualisasi data untuk empat hipotesis bisnis dan rekomendasi strategis). |
-| `Kelompok_TugasAkhir_Fase1.ipynb` | **Notebook Gabungan A + B + C (sesuai brief tugas, seluruh sel sudah dieksekusi):** menggabungkan Bagian A (dataset mentah `10.000` baris), Bagian B, dan Bagian C dengan basis data utama yang diselaraskan (`Data_Bersih` `9.557` baris, diskon `0–50%`), penanda 148 transaksi mencurigakan dari B.3, uji ketahanan Bagian C, serta narasi insight lengkap di bawah setiap grafik. |
+| `RaihanGraniaSatya_TugasAkhir_Fase1.ipynb` | **Notebook Gabungan A, B, dan C (sesuai brief tugas, seluruh sel sudah dieksekusi):** menggabungkan Bagian A (dataset mentah `10.000` baris), Bagian B, dan Bagian C dengan basis data utama yang diselaraskan (`Data_Bersih` `9.557` baris, diskon `0% s.d. 50%`), penanda `148` transaksi mencurigakan sesuai keputusan outlier B.3.4, uji ketahanan Bagian C, serta narasi insight lengkap di bawah setiap grafik. |
+| `RaihanGraniaSatya_TugasAkhir_Fase1.pdf` | **Laporan Analisis Utama (PDF):** dokumen laporan akhir terstruktur untuk Bagian A, B, dan C lengkap dengan tabel ringkasan statistik, grafik beresolusi tinggi, dan rekomendasi bisnis. |
 | `charts/` | Folder keluaran grafik beresolusi tinggi (300 DPI) untuk seluruh visualisasi Bagian A, B, dan C. |
 | `README.md` | Dokumentasi deskripsi dataset, identifikasi bagian data bermasalah, dan hasil analisis Tugas Bagian A. |
 
