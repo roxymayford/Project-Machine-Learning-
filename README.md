@@ -40,6 +40,10 @@
 | `TugasBagianA_Kelompok.xlsx` | **File 1 (Pengelompokan Kategori dan Analisis A.3):** Workbook Excel dengan 10 sheet dan rumus aktif berisi `Raw_Data`, `A1_Klasifikasi`, 6 sheet pengelompokan tipe data (`Identifier`, `Nominal`, `Ordinal`, `Diskrit`, `Kontinu`, `Temporal`), `A3_Analisis_Deskriptif` (dilengkapi tabel bin, 2 histogram usia, dan grafik gender), serta `A3_Pelanggan_Unik`. |
 | `TugasBagianA_Bersih.xlsx` | **File 2 (Dataset Bersih):** Workbook Excel dengan 3 sheet (`Data_Bersih`, `Log_Pembersihan`, `Data_Dikeluarkan`) berisi **9.557 baris** data yang sudah distandardisasi tipe datanya serta bersih dari anomali operasional gerai fisik (transaksi `Cash` pada kanal daring tetap dipertahankan sebagai COD). |
 | `TugasBagianA.ipynb` | Jupyter Notebook Python (seluruh sel sudah dieksekusi) berisi pembuktian kuantitatif Bagian A.2 (`isnull().sum()`, `duplicated().sum()`, konsistensi matematis, tipe data, dan anomali operasional) serta verifikasi A.1 dan A.3 menggunakan `seaborn` dan `matplotlib`. |
+| `TugasBagianB.ipynb` | Jupyter Notebook Python berisi analisis Bagian B (statistik deskriptif dan evaluasi outlier metode IQR). |
+| `TugasBagianC.ipynb` | Jupyter Notebook Python berisi analisis Bagian C (visualisasi data untuk empat hipotesis bisnis dan rekomendasi strategis). |
+| `Kelompok_TugasAkhir_Fase1.ipynb` | **Notebook Gabungan A + B + C (sesuai brief tugas, seluruh sel sudah dieksekusi):** menggabungkan Bagian A (dataset mentah `10.000` baris), Bagian B, dan Bagian C dengan basis data utama yang diselaraskan (`Data_Bersih` `9.557` baris, diskon `0–50%`), penanda 148 transaksi mencurigakan dari B.3, uji ketahanan Bagian C, serta narasi insight lengkap di bawah setiap grafik. |
+| `charts/` | Folder keluaran grafik beresolusi tinggi (300 DPI) untuk seluruh visualisasi Bagian A, B, dan C. |
 | `README.md` | Dokumentasi deskripsi dataset, identifikasi bagian data bermasalah, dan hasil analisis Tugas Bagian A. |
 
 ***
